@@ -1,98 +1,55 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 1px solid red;
-  }
-  
-  /* *****NAVBAR******/
-
-  nav {
-    background: #ccc;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    h1 {
-      color: #717171;
-      font-family: sans-serif;
-      font-size: 2rem;
-    }
-
-    a {
-      font-size: 1.2rem;
-      color: black;
-      text-decoration: none;
-      text-transform: uppercase;
-      margin-right: 10px;
-    }
-  }
-  
-  .onglets {
-    margin-left: 300px;
-  }
-.row1 {
-  display: flex;
-  justify-content: center;
-  background: green !important;
-  height: 90vh;
-
-  h1 {
-    margin-top: 200px;
-  }
-
-  h3 {
-    margin-top: 450px;
-  }
-  
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
 }
-  section {
 
-    h2 {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      margin: 20px;
-    }
+/* *****NAVBAR******/
 
-    .row2 {
-      display: flex;
-      justify-content: space-evenly;
-      align-content: center;
-      flex-wrap: wrap;
-      border: 1px solid black;
-      background: blue;
-    }
-    .card1 {
-    width: 420px;
-    height: 75vh;
-    margin: 20px 0px;
-    }
+nav {
+	background: #ccc;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 
-    .para1 {
-      padding: 20px;
-    }
-    
-  }
-  
-  @media screen and (max-width: 550PX) {
-    nav {
-      
-      h1 {
-        font-size: 1.5rem !important;
-      }
-  
-      a {
-        text-transform: capitalize;
-        margin-right: 3px;
-        font-size: 1rem;
-      }
-    }
+	h1 {
+		color: #717171;
+		font-family: sans-serif;
+		font-size: 2rem;
+	}
 
-    .onglets {
-      margin-left: 0px;
-    }
-  }
-  
-  /*# sourceMappingURL=style.css.map */
-  
+	a {
+		font-size: 1.2rem;
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-right: 10px;
+	}
+}
+
+.onglets {
+	margin-left: 300px;
+}
+
+// .section1 {
+
+@media screen and (max-width: 550px) {
+	nav {
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		a {
+			text-transform: capitalize;
+			margin-right: 3px;
+			font-size: 1rem;
+		}
+	}
+
+	.onglets {
+		margin-left: 0px;
+	}
+}
+
+/*# sourceMappingURL=style.css.map */

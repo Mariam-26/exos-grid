@@ -29,45 +29,9 @@ nav a {
   margin-left: 300px;
 }
 
-.row1 {
-  display: flex;
-  justify-content: center;
-  background: green !important;
-  height: 90vh;
-}
-.row1 h1 {
-  margin-top: 200px;
-}
-.row1 h3 {
-  margin-top: 450px;
-}
-
-section h2 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 20px;
-}
-section .row2 {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  background: blue;
-}
-section .card1 {
-  width: 420px;
-  height: 75vh;
-  margin: 20px 0px;
-}
-section .para1 {
-  padding: 20px;
-}
-
-@media screen and (max-width: 550PX) {
+@media screen and (max-width: 550px) {
   nav h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
   nav a {
     text-transform: capitalize;
