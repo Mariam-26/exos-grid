@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -6,28 +8,33 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
 nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
 }
 
 nav h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 }
 
 nav .menu {
 	margin-top: 3px;
-	margin-left: 300px;
+	margin-left: 600px;
 }
 
 nav .menu a {
 	text-decoration: none;
 	color: #000;
 	margin-right: 15px;
-	font-size: 1.1rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 }
 
@@ -37,11 +44,11 @@ header {
 	align-items: center;
 	background: url(asset/b.jpg) no-repeat center/cover;
 	color: #6f6f6f;
-	height: 90vh;
+	height: 75vh;
 }
 
 header h1 {
-	font-family: 'Playfair Display', serif;
+	font-family: sans-serif;
 	font-size: 6rem;
 }
 
@@ -51,6 +58,7 @@ header h1 {
 	justify-content: center;
 	margin: 20px;
 	font-size: 2rem;
+	font-family: 'Raleway', sans-serif;
 }
 
 .grid-container {
@@ -60,7 +68,7 @@ header h1 {
 .section1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-auto-rows: 1fr;
+	grid-template-rows: 1fr;
 	grid-template-areas: 'i1 p1 i2';
 	margin-right: 10px;
 	margin-left: 10px;
@@ -78,6 +86,11 @@ header h1 {
 	margin-right: 10px;
 }
 
+.image2 {
+	grid-area: i2;
+	width: 410px;
+}
+
 .para1 {
 	grid-area: p1;
 	background: rgb(222, 220, 255);
@@ -85,7 +98,7 @@ header h1 {
 	transition: ease-in-out 0.4s;
 	padding: 25px;
 	border-radius: 5px;
-	width: 390px;
+	width: 430px;
 	margin-right: 10px;
 }
 
@@ -93,9 +106,157 @@ header h1 {
 	background: darkblue;
 }
 
-.image2 {
+.grid-container1 {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.section2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'p1 i1';
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.para2 {
+	grid-area: p1;
+	background: rgb(222, 220, 255);
+	height: 70vh;
+	width: 370px;
+	cursor: pointer;
+	transition: ease-in-out 0.4s;
+	padding: 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.para2:hover {
+	background: darkblue;
+}
+
+.image3 {
+	grid-area: i1;
+	width: 900px;
+	height: 77.5vh;
+	border-radius: 5px;
+}
+
+.grid-container1 {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.section4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'p1 i1';
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.para4 {
+	grid-area: p1;
+	background: rgb(222, 220, 255);
+	height: 70vh;
+	width: 370px;
+	cursor: pointer;
+	transition: ease-in-out 0.4s;
+	padding: 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.para4:hover {
+	background: darkblue;
+}
+
+.image6 {
+	grid-area: i1;
+	width: 900px;
+	height: 77.5vh;
+	border-radius: 5px;
+}
+
+.grid-container2 {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.section3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'i1 p1 i2';
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.image4,
+.image5 {
+	height: 70vh;
+	width: 420px;
+	border-radius: 5px;
+}
+
+.image4 {
+	grid-area: i1;
+	margin-right: 10px;
+}
+
+.image5 {
 	grid-area: i2;
-	width: 450px;
+	width: 410px;
+}
+
+.para3 {
+	grid-area: p1;
+	background: rgb(222, 220, 255);
+	cursor: pointer;
+	transition: ease-in-out 0.4s;
+	padding: 25px;
+	border-radius: 5px;
+	width: 430px;
+	margin-right: 10px;
+}
+
+.para3:hover {
+	background: darkblue;
+}
+
+.grid-container3 {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.section4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'p1 i1';
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.para4 {
+	grid-area: p1;
+	background: rgb(222, 220, 255);
+	height: 70vh;
+	width: 370px;
+	cursor: pointer;
+	transition: ease-in-out 0.4s;
+	padding: 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.para4:hover {
+	background: darkblue;
+}
+
+.image6 {
+	grid-area: i1;
+	width: 900px;
+	height: 77.5vh;
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -106,13 +267,14 @@ header h1 {
 	nav .menu a {
 		margin-right: 10px;
 		text-transform: capitalize;
+		font-size: 1.2rem;
 	}
 
 	header {
 	}
 
 	header h1 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	.grid-container {
@@ -122,30 +284,116 @@ header h1 {
 	.section1 {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-auto-rows: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
 		grid-template-areas: 'i1' 'p1' 'i2';
 		margin-right: 3px;
 		margin-left: 3px;
-		justify-content: space-evenly;
 	}
-	
+
 	.image1,
 	.image2 {
 		height: 50vh;
-		margin-bottom: 3px;
-		width: 100%;
+		margin: 3px 1px;
+		width: 99.5%;
 	}
-	
+
 	.image1 {
 		grid-area: i1;
 	}
-	
+
+	.image2 {
+		grid-area: i2;
+	}
+
 	.para1 {
 		grid-area: p1;
-		width: 97%;
-		margin-bottom: 3px;
-		
-		padding: 7px;
-		
+		width: 99%;
+		height: 50vh;
+		margin: 3px 0px;
+		padding: 2px;
+	}
+
+	.grid-container1 {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	.section2 {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr;
+		grid-template-areas: 'p1' 'i1';
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+
+	.image3 {
+		grid-area: i1;
+		height: 50vh;
+		margin: 3px 1px;
+		width: 99.5%;
+	}
+
+	.para2 {
+		grid-area: p1;
+		width: 99%;
+		height: 50vh;
+		margin: 3px 0px;
+		padding: 2px;
+	}
+	.grid-container2 {
+		display: grid;
+	}
+	.section3 {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr;
+		grid-template-areas: 'i1' 'p1' 'i2';
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+	.image4,
+	.image5 {
+		height: 50vh;
+		margin: 3px 1px;
+		width: 99.5%;
+	}
+	.image4 {
+		grid-area: i1;
+	}
+	.image5 {
+		grid-area: i2;
+	}
+	.para3 {
+		grid-area: p1;
+		width: 99%;
+		height: 50vh;
+		margin: 3px 0px;
+		padding: 2px;
+	}
+
+	.grid-container3 {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	.section4 {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr;
+		grid-template-areas: 'p1' 'i1';
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+	.image6 {
+		grid-area: i1;
+		height: 50vh;
+		margin: 3px 1px;
+		width: 99.5%;
+	}
+	.para4 {
+		grid-area: p1;
+		width: 99%;
+		height: 50vh;
+		margin: 3px 0px;
+		padding: 2px;
 	}
 }
