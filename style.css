@@ -262,25 +262,25 @@ header h1 {
 footer {
 	display: flex;
 	flex-direction: column;
-	
+	background-color: rgb(0, 0, 0, 0.8);
+	justify-content: center;
 	align-items: center;
+	margin-top: 20px;
 }
 
 footer h1 {
 	margin: 10px auto;
 	font-size: 2rem;
-	margin-top: 40PX;
+	margin-top: 40px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
 .services {
 	display: flex;
-
 	width: 100%;
-	margin: 20px 0px 20px;
+	margin: 20px 10px 20px;
 	padding-left: 20px;
-	
 }
 
 footer h3 {
@@ -288,7 +288,62 @@ footer h3 {
 	text-transform: capitalize;
 	margin: 20px auto;
 	letter-spacing: 2px;
+	color: #999;
 }
+
+footer a {
+	color: #999;
+	transition: all 0.2s ease-in-out;
+	font-size: 1rem;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+.fab {
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+.fa-instagram-square {
+	color: #522879;
+}
+
+.fa-facebook {
+	color: #3fa9d9;
+}
+
+.fa-youtube {
+	color: #f00;
+}
+
+.fa-twitter {
+	color: #007cba;
+}
+
+.fas, .far {
+	margin: 0px 10px 20px 0px;
+	font-size: 2rem;
+}
+
+.fa-map-marker {
+	color: rgb(3, 48, 3);
+}
+
+.fa-phone-volume {
+	color: rgb(46, 3, 24);
+}
+
+.fa-envelope {
+	color: rgb(78, 5, 248);
+}
+
 
 footer p {
 	font-size: 1rem;
@@ -298,8 +353,8 @@ footer p {
 
 #contact {
 	font-size: 7px;
+	margin-bottom: 10px;
 }
-
 
 @media screen and (max-width: 1024px) {
 	nav .menu {
