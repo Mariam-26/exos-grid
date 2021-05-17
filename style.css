@@ -50,6 +50,9 @@ header {
 header h1 {
 	font-family: sans-serif;
 	font-size: 6rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-shadow: rgba(0, 0, 0, 0.24);
 }
 
 .pre {
@@ -93,17 +96,18 @@ header h1 {
 
 .para1 {
 	grid-area: p1;
-	background: rgb(222, 220, 255);
 	cursor: pointer;
 	transition: ease-in-out 0.4s;
 	padding: 25px;
 	border-radius: 5px;
 	width: 430px;
 	margin-right: 10px;
+	background: #f5ca93;
+	text-shadow: rgba(245, 4, 4, 0.24);
 }
 
 .para1:hover {
-	background: darkblue;
+	background: rgb(222, 220, 255);
 }
 
 .grid-container1 {
@@ -122,7 +126,6 @@ header h1 {
 
 .para2 {
 	grid-area: p1;
-	background: rgb(222, 220, 255);
 	height: 70vh;
 	width: 370px;
 	cursor: pointer;
@@ -130,9 +133,11 @@ header h1 {
 	padding: 25px;
 	border-radius: 5px;
 	margin-right: 10px;
+	background: #869026;
+	text-shadow: rgba(55, 252, 6, 0.24);
 }
 .para2:hover {
-	background: darkblue;
+	background: rgb(222, 220, 255);
 }
 
 .image3 {
@@ -154,21 +159,6 @@ header h1 {
 	grid-template-areas: 'p1 i1';
 	margin-right: 10px;
 	margin-left: 10px;
-}
-
-.para4 {
-	grid-area: p1;
-	background: rgb(222, 220, 255);
-	height: 70vh;
-	width: 370px;
-	cursor: pointer;
-	transition: ease-in-out 0.4s;
-	padding: 25px;
-	border-radius: 5px;
-	margin-right: 10px;
-}
-.para4:hover {
-	background: darkblue;
 }
 
 .image6 {
@@ -210,17 +200,18 @@ header h1 {
 
 .para3 {
 	grid-area: p1;
-	background: rgb(222, 220, 255);
+
 	cursor: pointer;
 	transition: ease-in-out 0.4s;
 	padding: 25px;
 	border-radius: 5px;
 	width: 430px;
 	margin-right: 10px;
+	background: #43b5fe;
 }
 
 .para3:hover {
-	background: darkblue;
+	background: rgb(222, 220, 255);
 }
 
 .grid-container3 {
@@ -239,7 +230,6 @@ header h1 {
 
 .para4 {
 	grid-area: p1;
-	background: rgb(222, 220, 255);
 	height: 70vh;
 	width: 370px;
 	cursor: pointer;
@@ -247,9 +237,10 @@ header h1 {
 	padding: 25px;
 	border-radius: 5px;
 	margin-right: 10px;
+	background: #414443;
 }
 .para4:hover {
-	background: darkblue;
+	background: rgb(222, 220, 255);
 }
 
 .image6 {
@@ -296,7 +287,7 @@ footer a {
 	transition: all 0.2s ease-in-out;
 	font-size: 1.3rem;
 	text-decoration: none;
-	margin-right: 10px;
+	margin-right: 5px;
 	margin-bottom: 20px;
 }
 
@@ -305,7 +296,7 @@ footer a:hover {
 }
 
 .fab {
-	margin-right: 30px;
+	margin-right: 24px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 2rem;
@@ -523,8 +514,9 @@ footer p {
 	}
 
 	.fab {
-		margin: 10px;
-		font-size: 1.8rem;
+		margin-right: 24px;
+		margin-left: 0px;
+		font-size: 1.9rem;
 	}
 
 	.fa-instagram-square {
