@@ -97,6 +97,8 @@ header h1 {
 .image2 {
 	grid-area: i2;
 	width: 410px;
+	height: 70vh;
+	border-radius: 5px;
 }
 
 .para1 {
@@ -105,7 +107,7 @@ header h1 {
 	transition: ease-in-out 0.4s;
 	padding: 25px;
 	border-radius: 5px;
-	width: 430px;
+	width: 420px;
 	margin-right: 10px;
 	background: #f5ca93;
 	text-shadow: rgba(245, 4, 4, 0.24);
@@ -171,7 +173,7 @@ header h1 {
 	transition: ease-in-out 0.4s;
 	padding: 25px;
 	border-radius: 5px;
-	width: 430px;
+	width: 420px;
 	margin-right: 10px;
 	background: #43b5fe;
 }
@@ -204,14 +206,8 @@ header h1 {
 	background: rgb(222, 220, 255);
 }
 
-.image6 {
-	grid-area: i1;
-	width: 900px;
-	height: 77.5vh;
-	border-radius: 5px;
-}
-
 footer {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(0, 0, 0, 0.8);
@@ -230,7 +226,7 @@ footer h1 {
 
 .services {
 	display: flex;
-	width: 90%;
+	width: 98.1%;
 	margin: 20px 10px 20px;
 	padding-left: 10px;
 }
@@ -319,9 +315,9 @@ footer p {
 	}
 
 	nav .menu a {
-		margin-right: 5px;
+		margin: 0px auto;
 		text-transform: capitalize;
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 
 	header h1 {
@@ -357,7 +353,7 @@ footer p {
 	.image6 {
 		height: 50vh;
 		margin: 3px 1px;
-		width: 99.5%;
+		width: 100%;
 	}
 
 	.image1,
@@ -377,7 +373,7 @@ footer p {
 	.para3,
 	.para4 {
 		grid-area: p1;
-		width: 99%;
+		width: 99.5%;
 		height: 50vh;
 		margin: 3px 0px;
 		padding: 2px;
@@ -400,6 +396,7 @@ footer p {
 
 	.services {
 		flex-direction: column;
+		width: 96.1%;
 	}
 
 	footer h3 {
@@ -425,7 +422,6 @@ footer p {
 	}
 
 	footer p {
-		width: 100%;
 		font-size: 1rem;
 		letter-spacing: 1px;
 	}
