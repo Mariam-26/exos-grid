@@ -18,6 +18,8 @@ nav {
 	justify-content: center;
 	align-items: center;
 	position: fixed;
+	width: 100%;
+	background-color: #2d1efc67;
 }
 
 nav h1 {
@@ -25,9 +27,20 @@ nav h1 {
 	text-transform: uppercase;
 }
 
+strong {
+	color: #fff;
+}
+
 nav .menu {
 	margin-top: 3px;
 	margin-left: 600px;
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.2) 25%,
+		rgba(255, 255, 255, 0.2) 75%,
+		rgba(255, 255, 255, 0) 100%
+	);
 }
 
 nav .menu a {
@@ -44,7 +57,7 @@ header {
 	align-items: center;
 	background: url(asset/b.jpg) no-repeat center/cover;
 	color: #6f6f6f;
-	height: 100vh;
+	height: calc(100vh - 15vh) !important;
 }
 
 header h1 {
@@ -63,6 +76,7 @@ header h1 {
 	font-size: 2rem;
 	font-family: 'Raleway', sans-serif;
 	text-transform: capitalize;
+	letter-spacing: 2px;
 }
 
 .grid-container,
@@ -312,12 +326,13 @@ footer p {
 	nav h1 {
 		font-size: 2.2rem;
 		text-transform: uppercase;
+		margin: 0 50px;
 	}
 
 	nav .menu a {
-		margin: 0px 7px;
+		margin: 0px 5px;
 		text-transform: capitalize;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 	header h1 {
