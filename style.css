@@ -310,14 +310,14 @@ footer p {
 	}
 
 	nav h1 {
-		font-size: 2rem;
+		font-size: 2.2rem;
 		text-transform: uppercase;
 	}
 
 	nav .menu a {
-		margin: 0px auto;
+		margin: 0px 7px;
 		text-transform: capitalize;
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 
 	header h1 {
@@ -351,7 +351,7 @@ footer p {
 	.image4,
 	.image5,
 	.image6 {
-		height: 50vh;
+		height: 65vh;
 		margin: 3px 1px;
 		width: 100%;
 	}
@@ -374,7 +374,7 @@ footer p {
 	.para4 {
 		grid-area: p1;
 		width: 99.5%;
-		height: 50vh;
+		height: 65vh;
 		margin: 3px 0px;
 		padding: 2px;
 	}
